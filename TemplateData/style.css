@@ -6,12 +6,13 @@ body { padding: 0; margin: 0 }
 #unity-progress-bar-empty { margin-left: auto; margin-right: auto; width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
-.game-page { background: #090b0d; color: #f4f1e9; font-family: Arial, sans-serif; overflow: hidden }
+.game-page { background: #202b5d; color: #202b5d; font-family: Arial, sans-serif; overflow: hidden }
 .game-page #unity-container { top: 58px; height: calc(100% - 58px) }
-.game-nav { position: fixed; z-index: 10; inset: 0 0 auto; height: 58px; padding: 0 22px; display: flex; gap: 26px; align-items: center; background: rgba(9,11,13,.94); border-bottom: 1px solid #292e32; font-size: 12px }
-.game-nav a { color: #aeb4b6; text-decoration: none }
-.game-nav a:first-child { color: #c8ff37; font-weight: 800; letter-spacing: .14em; margin-right: auto }
-.game-nav .is-active { color: #fff }
-#unity-loading-bar p { color: #b9bfc1; text-align: center; font-size: 12px }
+.game-nav { position: fixed; z-index: 10; inset: 0 0 auto; height: 58px; padding: 0 22px; display: flex; gap: 26px; align-items: center; background: rgba(255,255,255,.96); border-bottom: 1px solid #d9ddea; font-size: 12px }
+.game-nav a { color: #68708d; text-decoration: none }
+.game-nav .game-brand { margin-right: auto; line-height: 0 }
+.game-brand img { width: 135px; height: auto; display: block }
+.game-nav .is-active { color: #202b5d; font-weight: 700 }
+#unity-loading-bar p { color: #fff; text-align: center; font-size: 12px }
 #unity-warning .error { background: #b72e25; color: white; padding: 10px }
 @media (max-width: 640px) { .game-nav { gap: 12px; padding: 0 12px; font-size: 10px } .game-nav a:first-child { margin-right: 0 } }
