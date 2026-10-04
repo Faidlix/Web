@@ -2,6 +2,16 @@
   "entries": [
     {
       "date": "2026-10-05",
+      "version": "1.9",
+      "title": "小卡片式行動選單",
+      "summary": "漢堡選單改為右上角浮出的緊湊小卡片群組，不再以全寬白色面板佔據目前簡報頁。",
+      "images": [
+        {"src": "assets/ux/mobile-menu-before.png", "alt": "調整前佔滿版面的行動選單"},
+        {"src": "assets/ux/mobile-menu-reference.png", "alt": "期望的小卡片式行動選單參考"}
+      ]
+    },
+    {
+      "date": "2026-10-05",
       "version": "1.8",
       "title": "簡報式整頁換頁",
       "summary": "首頁改為類似 PPT 的固定畫面：隱藏傳統捲軸，以滾輪、方向鍵或觸控滑動切換完整內容頁，並提供段落圓點定位。",
