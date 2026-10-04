@@ -1,4 +1,4 @@
-const cacheName = "faidlix-portfolio-1.9.0";
+const cacheName = "faidlix-portfolio-2.0.0";
 const contentToCache = [
     "index.html",
     "plugins.html",
@@ -24,6 +24,7 @@ const contentToCache = [
     "assets/ux/homepage-wheel-before.png",
     "assets/ux/mobile-menu-before.png",
     "assets/ux/mobile-menu-reference.png",
+    "assets/ux/section-dots-before.png",
     "data/plugins.json",
     "data/ux-history.json"
 
