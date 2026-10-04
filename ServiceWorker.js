@@ -1,4 +1,4 @@
-const cacheName = "faidlix-portfolio-1.1.0";
+const cacheName = "faidlix-portfolio-1.2.0";
 const contentToCache = [
     "index.html",
     "plugins.html",
@@ -11,6 +11,8 @@ const contentToCache = [
     "assets/brand/faidlix-logo-horizontal.png",
     "assets/brand/faidlix-logo-stacked.png",
     "assets/brand/faidlix-symbol.png",
+    "assets/brand/faidlix-symbol-transparent.png",
+    "assets/brand/18fx-portrait.jpg",
     "data/plugins.json",
     "Build/Web01.loader.js",
     "Build/Web01.framework.js.br",

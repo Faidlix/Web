@@ -7,8 +7,8 @@
     "theme_color": "#202b5d",
     "description": "Faidlix 的 3D、遊戲與 Blender 工具作品集。",
     "icons": [{
-      "src": "assets/brand/faidlix-symbol.png",
-      "sizes": "567x567",
+      "src": "assets/brand/faidlix-symbol-transparent.png",
+      "sizes": "1536x1536",
       "type": "image/png",
       "purpose": "any maskable"
     }]
