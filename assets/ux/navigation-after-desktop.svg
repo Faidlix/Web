@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="160" viewBox="0 0 1600 160">
+  <rect width="1600" height="160" fill="#fff"/><path d="M0 159.5h1600" stroke="#d9ddea"/>
+  <g fill="#202b5d"><path d="M55 48l28-18v55L55 103zm37-22l31-20v70L92 96z"/><text x="138" y="88" font-family="Arial,sans-serif" font-size="34" letter-spacing="8">FAIDLIX</text></g>
+  <g fill="#68708d" font-family="Arial,'Noto Sans TC',sans-serif" font-size="22" font-weight="600"><text x="760" y="88">作品</text><text x="850" y="88">UX 介面</text><text x="980" y="88">Unity 相關</text><text x="1130" y="88">Blender 外掛</text><text x="1305" y="88">外包報價</text></g>
+  <rect x="1450" y="48" width="92" height="58" fill="none" stroke="#202b5d" stroke-width="2"/><text x="1473" y="85" fill="#202b5d" font-family="Arial,'Noto Sans TC',sans-serif" font-size="20" font-weight="700">聯絡</text>
+</svg>

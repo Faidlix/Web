@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="160" viewBox="0 0 720 160">
+  <rect width="720" height="160" fill="#fff"/><path d="M0 159.5h720" stroke="#d9ddea"/>
+  <g fill="#202b5d"><path d="M48 52l26-17v51l-26 17zm35-21l29-19v65L83 96z"/><text x="126" y="88" font-family="Arial,sans-serif" font-size="31" letter-spacing="7">FAIDLIX</text></g>
+  <g stroke="#202b5d" stroke-width="4" stroke-linecap="square"><path d="M625 58h34M625 78h34M625 98h34"/></g>
+</svg>
