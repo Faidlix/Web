@@ -1,4 +1,4 @@
-const cacheName = "faidlix-portfolio-1.4.0";
+const cacheName = "faidlix-portfolio-1.5.0";
 const contentToCache = [
     "index.html",
     "plugins.html",
@@ -25,23 +25,24 @@ self.addEventListener('install', function (e) {
       const cache = await caches.open(cacheName);
       console.log('[Service Worker] Caching all: app shell and content');
       await cache.addAll(contentToCache);
+      await self.skipWaiting();
     })());
 });
 
 self.addEventListener('activate', function (e) {
-    e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== cacheName).map(key => caches.delete(key)))));
+    e.waitUntil(Promise.all([caches.keys().then(keys => Promise.all(keys.filter(key => key !== cacheName).map(key => caches.delete(key)))), self.clients.claim()]));
 });
 
 self.addEventListener('fetch', function (e) {
     if (e.request.method !== 'GET') return;
     e.respondWith((async function () {
       try {
-        const response = await fetch(e.request);
+        const response = await fetch(e.request, e.request.mode === 'navigate' ? { cache: 'no-store' } : undefined);
         const cache = await caches.open(cacheName);
         cache.put(e.request, response.clone());
         return response;
       } catch (_) {
-        return caches.match(e.request);
+        return caches.match(e.request, { ignoreSearch: e.request.mode === 'navigate' });
       }
     })());
 });
