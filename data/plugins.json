@@ -80,7 +80,7 @@
       "id": "outliner",
       "name": "Outliner 階層選取工具",
       "mark": "OL",
-      "version": "0.2.14",
+      "version": "0.2.16",
       "blender": "5.2",
       "summary": "直接在 Outliner 以三態勾選框操作物件、集合與骨架階層，保留 Blender 原生限制狀態。",
       "features": [
@@ -91,7 +91,7 @@
       ],
       "repository": "https://github.com/Faidlix/BlenderAddons",
       "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/index.json",
-      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_outliner-0.2.14.zip",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_outliner-0.2.16.zip",
       "history": [
         {
           "version": "0.1.0",
@@ -107,6 +107,11 @@
           "version": "0.2.12",
           "date": "2026-10-04",
           "changes": "修正摺疊更新、模式圖示重疊與更新完成狀態。"
+        },
+        {
+          "version": "0.2.16",
+          "date": "2026-10-04",
+          "changes": "補充 IK 清單與 Shape 待辦"
         },
         {
           "version": "0.2.14",
