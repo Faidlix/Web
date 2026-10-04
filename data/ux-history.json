@@ -2,6 +2,14 @@
   "entries": [
     {
       "date": "2026-10-05",
+      "version": "1.8",
+      "title": "簡報式整頁換頁",
+      "summary": "首頁改為類似 PPT 的固定畫面：隱藏傳統捲軸，以滾輪、方向鍵或觸控滑動切換完整內容頁，並提供段落圓點定位。",
+      "image": "assets/ux/homepage-wheel-before.png",
+      "imageAlt": "首頁使用傳統長頁捲動的調整前畫面"
+    },
+    {
+      "date": "2026-10-05",
       "version": "1.7",
       "title": "真實介面證據",
       "summary": "移除自動生成的外掛 UI 示意圖；只有來源倉庫存在真實介面截圖且改動涉及 UI／UX 時才顯示圖片。",
