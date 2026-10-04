@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "date": "2026-10-05",
+      "version": "1.7",
+      "title": "真實介面證據",
+      "summary": "移除自動生成的外掛 UI 示意圖；只有來源倉庫存在真實介面截圖且改動涉及 UI／UX 時才顯示圖片。",
+      "image": "assets/ux/plugin-history-placeholder-before.png",
+      "imageAlt": "外掛歷史版本使用示意圖片的調整前畫面"
+    }
+  ]
+}

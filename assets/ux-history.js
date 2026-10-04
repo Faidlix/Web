@@ -1,0 +1,7 @@
+const uxTimeline=document.querySelector('.ux-history .timeline');
+const uxEsc=(value='')=>String(value).replace(/[&<>'"]/g,(char)=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+fetch('data/ux-history.json',{cache:'no-cache'}).then((response)=>response.json()).then((data)=>{
+  if(!uxTimeline)return;
+  const entries=[...(data.entries||[])].sort((a,b)=>b.date.localeCompare(a.date)||b.version.localeCompare(a.version,undefined,{numeric:true}));
+  uxTimeline.insertAdjacentHTML('afterbegin',entries.map((entry)=>`<li>${entry.image?`<a class="ux-history-shot" href="${uxEsc(entry.image)}" target="_blank"><img src="${uxEsc(entry.image)}" alt="${uxEsc(entry.imageAlt)}" loading="lazy"></a>`:''}<div class="history-copy"><time datetime="${uxEsc(entry.date)}">${uxEsc(entry.date)}</time><b>v${uxEsc(entry.version)} · ${uxEsc(entry.title)}</b><p>${uxEsc(entry.summary)}</p></div></li>`).join(''));
+}).catch(()=>{});
