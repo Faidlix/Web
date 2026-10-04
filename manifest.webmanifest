@@ -1,11 +1,11 @@
 {
-    "name": "My project",
-    "short_name": "My project",
+    "name": "Faidlix Portfolio",
+    "short_name": "Faidlix",
     "start_url": "index.html",
-    "display": "fullscreen",
-    "background_color": "#231F20",
-    "theme_color": "#000",
-    "description": "",
+    "display": "standalone",
+    "background_color": "#090b0d",
+    "theme_color": "#090b0d",
+    "description": "Faidlix 的 3D、遊戲與 Blender 工具作品集。",
     "icons": [{
       "src": "TemplateData/icons/unity-logo-dark.png",
       "sizes": "144x144",

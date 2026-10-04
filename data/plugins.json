@@ -1,0 +1,261 @@
+{
+  "syncedAt": "2026-10-04",
+  "plugins": [
+    {
+      "id": "bone-remap",
+      "name": "Faidlix Bone Remap",
+      "mark": "BR",
+      "version": "0.5.5",
+      "blender": "4.5",
+      "summary": "批次匯入動畫檔並把動作重定向到主要骨架，支援映射、預覽、軸向校正與批次 Bake。",
+      "features": [
+        "骨架重定向",
+        "批次匯入",
+        "動畫預覽",
+        "Root Motion"
+      ],
+      "repository": "https://github.com/Faidlix/BlanderBoneRemap",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlanderBoneRemap/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlanderBoneRemap/main/repository/faidlix_bone_remap-0.5.5.zip",
+      "history": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-04",
+          "changes": "建立骨架映射、動畫匯入與重定向基礎流程。"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-04",
+          "changes": "加入動畫預覽、軸向與位置校正及批次處理。"
+        },
+        {
+          "version": "0.5.5",
+          "date": "2026-10-04",
+          "changes": "拆分預覽與播放，加入左右成組映射並對齊多動畫欄位。"
+        }
+      ]
+    },
+    {
+      "id": "outliner",
+      "name": "Faidlix Outliner",
+      "mark": "OL",
+      "version": "0.2.12",
+      "blender": "5.2",
+      "summary": "直接在 Outliner 以三態勾選框操作物件、集合與骨架階層，保留 Blender 原生限制狀態。",
+      "features": [
+        "階層選取",
+        "三態勾選",
+        "批次限制",
+        "線上更新"
+      ],
+      "repository": "https://github.com/Faidlix/BlanderOutliner",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlanderOutliner/main/repository/index.json",
+      "download": "downloads/faidlix_outliner-0.2.12.zip",
+      "history": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-04",
+          "changes": "加入 Outliner 階層選取勾選欄。"
+        },
+        {
+          "version": "0.2.10",
+          "date": "2026-10-04",
+          "changes": "完善物件、集合、場景與骨架的批次操作。"
+        },
+        {
+          "version": "0.2.12",
+          "date": "2026-10-04",
+          "changes": "修正摺疊更新、模式圖示重疊與更新完成狀態。"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": "Faidlix Weight",
+      "mark": "WT",
+      "version": "1.2.0",
+      "blender": "5.2",
+      "summary": "依左右命名規則鏡像或交換選取頂點的權重，並以 Smart Match 處理不同拓撲。",
+      "features": [
+        "權重鏡像",
+        "左右交換",
+        "Smart Match",
+        "鎖定群組保護"
+      ],
+      "repository": "https://github.com/Faidlix/BlanderWeightMirror",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlanderWeightMirror/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlanderWeightMirror/main/repository/Faidlix_Weight-1.2.0-release.zip",
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-30",
+          "changes": "建立選取頂點權重鏡像與左右名稱配對。"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-02",
+          "changes": "加入 GitHub Extension Repository 發布流程。"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-03",
+          "changes": "加入 Smart Match、反向交換與免重啟線上更新。"
+        }
+      ]
+    },
+    {
+      "id": "bakemap",
+      "name": "Faidlix BakeMap",
+      "mark": "BM",
+      "version": "2.3.8",
+      "blender": "5.2",
+      "summary": "將參考模型的材質資訊烘焙到目標模型，支援多材質、單一圖集與背景烘焙工作流。",
+      "features": [
+        "背景烘焙",
+        "多材質",
+        "單一圖集",
+        "貼圖重建"
+      ],
+      "repository": "https://github.com/Faidlix/BlanderBakemaps",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlanderBakemaps/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlanderBakemaps/main/repository/Faidlix_BakeMap-2.3.8.zip",
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-20",
+          "changes": "建立參考模型到目標模型的貼圖烘焙流程。"
+        },
+        {
+          "version": "2.2.5",
+          "date": "2026-09-29",
+          "changes": "修正 Local View 烘焙與 Outliner 取樣選取。"
+        },
+        {
+          "version": "2.3.8",
+          "date": "2026-10-04",
+          "changes": "提高線上更新穩定性、強化安全檢查並預設收合面板。"
+        }
+      ]
+    },
+    {
+      "id": "fbxzip",
+      "name": "Faidlix FBX ZipExporter",
+      "mark": "FZ",
+      "version": "1.6.0",
+      "blender": "4.2",
+      "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
+      "features": [
+        "選取物件",
+        "FBX 預設",
+        "貼圖篩選",
+        "ZIP 封裝"
+      ],
+      "repository": "https://github.com/Faidlix/Blander-Fbx-ZipExporter",
+      "source": "https://raw.githubusercontent.com/Faidlix/Blander-Fbx-ZipExporter/main/release.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/Blander-Fbx-ZipExporter/main/dist/Faidlix_FBXZip-1.6.0-release.zip",
+      "history": [
+        {
+          "version": "1.5.1",
+          "date": "2026-10-03",
+          "changes": "加入 Faidlix 側欄、FBX 預設與貼圖封裝。"
+        },
+        {
+          "version": "1.6.0",
+          "date": "2026-10-03",
+          "changes": "加入 SHA256 與 ZIP 路徑驗證的安全線上更新。"
+        }
+      ]
+    },
+    {
+      "id": "paint",
+      "name": "Faidlix Paint",
+      "mark": "PT",
+      "version": "0.4.7",
+      "blender": "5.2",
+      "summary": "在 Texture Paint 與 Image Editor 中填滿 UV 島，並以筆刷、框選或套索建立同步像素遮罩。",
+      "features": [
+        "UV 島填色",
+        "遮罩筆刷",
+        "Lasso / Box",
+        "同步預覽"
+      ],
+      "repository": "https://github.com/Faidlix/Blander-Paint",
+      "source": "https://raw.githubusercontent.com/Faidlix/Blander-Paint/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/Blander-Paint/main/repository/faidlix_paint-0.4.7.zip",
+      "history": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-03",
+          "changes": "加入整張圖片與 UV 島填色。"
+        },
+        {
+          "version": "0.3.0",
+          "date": "2026-10-03",
+          "changes": "加入像素遮罩、套索與即時覆蓋預覽。"
+        },
+        {
+          "version": "0.4.7",
+          "date": "2026-10-04",
+          "changes": "改用原生遮罩投影，完善選取工具與線上更新狀態。"
+        }
+      ]
+    },
+    {
+      "id": "texture-marge",
+      "name": "Faidlix Texture Marge",
+      "mark": "TM",
+      "version": "1.5.3",
+      "blender": "5.2",
+      "summary": "把多張來源圖片的任意通道合併到 RGBA，建立材質副本並保留原始圖片與材質。",
+      "features": [
+        "通道合併",
+        "材質掃描",
+        "尺寸重取樣",
+        "非破壞流程"
+      ],
+      "repository": "https://github.com/Faidlix/BlanderTextureMarge",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlanderTextureMarge/main/blender_manifest.toml",
+      "download": "https://github.com/Faidlix/BlanderTextureMarge/archive/refs/heads/main.zip",
+      "history": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-02",
+          "changes": "建立可驗證的 RGBA 通道打包 MVP。"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-10-03",
+          "changes": "加入材質掃描、多來源混合與材質副本。"
+        },
+        {
+          "version": "1.5.3",
+          "date": "2026-10-04",
+          "changes": "完善圖片欄、材質替換、更新安全性並預設收合面板。"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "name": "Faidlix Translate",
+      "mark": "TR",
+      "version": "1.0.0",
+      "blender": "5.2",
+      "summary": "在 Blender 頂部列快速切換繁體中文與原始介面語言，並保存與還原語言設定。",
+      "features": [
+        "繁中切換",
+        "Topbar 控制",
+        "設定保存"
+      ],
+      "repository": "https://github.com/Faidlix",
+      "source": "local",
+      "download": "downloads/Faidlix_Translate-1.0.0-release.zip",
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-30",
+          "changes": "加入 Topbar 語言切換、翻譯旗標保存與還原。"
+        }
+      ]
+    }
+  ]
+}
