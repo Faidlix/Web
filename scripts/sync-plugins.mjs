@@ -35,7 +35,10 @@ for (const source of sources) {
     const raw = await getText(rawUrl);
     let version = plugin.version, download = plugin.download;
     if (source.type === 'extension-index') {
-      const item = JSON.parse(raw).data.sort((a, b) => compareVersions(b.version, a.version))[0];
+      const items = JSON.parse(raw).data;
+      const matching = source.pluginId ? items.filter((item) => item.id === source.pluginId) : items;
+      const item = matching.sort((a, b) => compareVersions(b.version, a.version))[0];
+      if (!item) throw new Error(`索引中找不到 ${source.pluginId || source.id}`);
       version = item.version;
       download = new URL(item.archive_url, rawUrl).href;
     } else if (source.type === 'release-json') {

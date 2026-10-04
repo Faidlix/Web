@@ -1,9 +1,10 @@
 [
   {"id":"bone-remap","type":"extension-index","repo":"Faidlix/BlanderBoneRemap","path":"repository/index.json"},
-  {"id":"outliner","type":"extension-index","repo":"Faidlix/BlanderOutliner","path":"repository/index.json"},
+  {"id":"outliner","type":"extension-index","repo":"Faidlix/BlenderAddons","path":"repository/index.json","pluginId":"faidlix_outliner"},
   {"id":"weight","type":"extension-index","repo":"Faidlix/BlanderWeightMirror","path":"repository/index.json"},
   {"id":"bakemap","type":"extension-index","repo":"Faidlix/BlanderBakemaps","path":"repository/index.json"},
-  {"id":"fbxzip","type":"release-json","repo":"Faidlix/Blander-Fbx-ZipExporter","path":"release.json"},
-  {"id":"paint","type":"extension-index","repo":"Faidlix/Blander-Paint","path":"repository/index.json"},
-  {"id":"texture-marge","type":"manifest","repo":"Faidlix/BlanderTextureMarge","path":"blender_manifest.toml"}
+  {"id":"fbxzip","type":"manifest","repo":"Faidlix/BlenderAddons","path":"addons/Faidlix_FBXZip/blender_manifest.toml"},
+  {"id":"paint","type":"extension-index","repo":"Faidlix/BlenderAddons","path":"repository/index.json","pluginId":"faidlix_paint"},
+  {"id":"texture-marge","type":"manifest","repo":"Faidlix/BlenderAddons","path":"addons/Faidlix_TextureMarge/blender_manifest.toml"},
+  {"id":"manager","type":"extension-index","repo":"Faidlix/BlenderAddons","path":"repository/index.json","pluginId":"faidlix_manager"}
 ]

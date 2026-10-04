@@ -1,9 +1,38 @@
 {
-  "syncedAt": "2026-10-04",
+  "syncedAt": "2026-10-05",
   "plugins": [
     {
+      "id": "manager",
+      "name": "已安裝外掛集中更新工具",
+      "mark": "MG",
+      "version": "1.0.1",
+      "blender": "5.2",
+      "summary": "集中檢查並更新已安裝的 Faidlix Blender 外掛，只更新現有套件，不會自動安裝其他外掛。",
+      "features": [
+        "全部更新",
+        "集中檢查",
+        "僅更新已安裝套件",
+        "統一來源"
+      ],
+      "repository": "https://github.com/Faidlix/BlenderAddons",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_manager-1.0.1.zip",
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-04",
+          "changes": "建立集中管理入口，提供已安裝外掛的全部更新功能。"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-05",
+          "changes": "集中全部更新至統一發布庫，並維持只更新已安裝套件。"
+        }
+      ]
+    },
+    {
       "id": "bone-remap",
-      "name": "Faidlix Bone Remap",
+      "name": "骨架動畫重定向工具",
       "mark": "BR",
       "version": "0.5.5",
       "blender": "4.5",
@@ -37,9 +66,9 @@
     },
     {
       "id": "outliner",
-      "name": "Faidlix Outliner",
+      "name": "Outliner 階層選取工具",
       "mark": "OL",
-      "version": "0.2.12",
+      "version": "0.2.14",
       "blender": "5.2",
       "summary": "直接在 Outliner 以三態勾選框操作物件、集合與骨架階層，保留 Blender 原生限制狀態。",
       "features": [
@@ -48,9 +77,9 @@
         "批次限制",
         "線上更新"
       ],
-      "repository": "https://github.com/Faidlix/BlanderOutliner",
-      "source": "https://raw.githubusercontent.com/Faidlix/BlanderOutliner/main/repository/index.json",
-      "download": "downloads/faidlix_outliner-0.2.12.zip",
+      "repository": "https://github.com/Faidlix/BlenderAddons",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_outliner-0.2.14.zip",
       "history": [
         {
           "version": "0.1.0",
@@ -66,12 +95,17 @@
           "version": "0.2.12",
           "date": "2026-10-04",
           "changes": "修正摺疊更新、模式圖示重疊與更新完成狀態。"
+        },
+        {
+          "version": "0.2.14",
+          "date": "2026-10-05",
+          "changes": "搬移至集中發布庫並補上統一套件說明。"
         }
       ]
     },
     {
       "id": "weight",
-      "name": "Faidlix Weight",
+      "name": "頂點權重鏡像工具",
       "mark": "WT",
       "version": "1.2.0",
       "blender": "5.2",
@@ -105,7 +139,7 @@
     },
     {
       "id": "bakemap",
-      "name": "Faidlix BakeMap",
+      "name": "材質貼圖烘焙工具",
       "mark": "BM",
       "version": "2.3.8",
       "blender": "5.2",
@@ -139,9 +173,9 @@
     },
     {
       "id": "fbxzip",
-      "name": "Faidlix FBX ZipExporter",
+      "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -150,9 +184,9 @@
         "貼圖篩選",
         "ZIP 封裝"
       ],
-      "repository": "https://github.com/Faidlix/Blander-Fbx-ZipExporter",
-      "source": "https://raw.githubusercontent.com/Faidlix/Blander-Fbx-ZipExporter/main/release.json",
-      "download": "https://raw.githubusercontent.com/Faidlix/Blander-Fbx-ZipExporter/main/dist/Faidlix_FBXZip-1.6.0-release.zip",
+      "repository": "https://github.com/Faidlix/BlenderAddons",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/addons/Faidlix_FBXZip/blender_manifest.toml",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_fbx_zip_exporter-1.7.0.zip",
       "history": [
         {
           "version": "1.5.1",
@@ -163,14 +197,19 @@
           "version": "1.6.0",
           "date": "2026-10-03",
           "changes": "加入 SHA256 與 ZIP 路徑驗證的安全線上更新。"
+        },
+        {
+          "version": "1.7.0",
+          "date": "2026-10-05",
+          "changes": "搬移至 BlenderAddons 集中發布庫。"
         }
       ]
     },
     {
       "id": "paint",
-      "name": "Faidlix Paint",
+      "name": "UV 填色與遮罩工具",
       "mark": "PT",
-      "version": "0.4.7",
+      "version": "0.4.8",
       "blender": "5.2",
       "summary": "在 Texture Paint 與 Image Editor 中填滿 UV 島，並以筆刷、框選或套索建立同步像素遮罩。",
       "features": [
@@ -179,9 +218,9 @@
         "Lasso / Box",
         "同步預覽"
       ],
-      "repository": "https://github.com/Faidlix/Blander-Paint",
-      "source": "https://raw.githubusercontent.com/Faidlix/Blander-Paint/main/repository/index.json",
-      "download": "https://raw.githubusercontent.com/Faidlix/Blander-Paint/main/repository/faidlix_paint-0.4.7.zip",
+      "repository": "https://github.com/Faidlix/BlenderAddons",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/index.json",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_paint-0.4.8.zip",
       "history": [
         {
           "version": "0.1.0",
@@ -197,12 +236,17 @@
           "version": "0.4.7",
           "date": "2026-10-04",
           "changes": "改用原生遮罩投影，完善選取工具與線上更新狀態。"
+        },
+        {
+          "version": "0.4.8",
+          "date": "2026-10-05",
+          "changes": "搬移至集中發布庫；仍可獨立下載、安裝、更新與移除。"
         }
       ]
     },
     {
       "id": "texture-marge",
-      "name": "Faidlix Texture Marge",
+      "name": "貼圖通道合併工具",
       "mark": "TM",
       "version": "1.5.3",
       "blender": "5.2",
@@ -213,8 +257,8 @@
         "尺寸重取樣",
         "非破壞流程"
       ],
-      "repository": "https://github.com/Faidlix/BlanderTextureMarge",
-      "source": "https://raw.githubusercontent.com/Faidlix/BlanderTextureMarge/main/blender_manifest.toml",
+      "repository": "https://github.com/Faidlix/BlenderAddons",
+      "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/addons/Faidlix_TextureMarge/blender_manifest.toml",
       "download": "https://github.com/Faidlix/BlanderTextureMarge/archive/refs/heads/main.zip",
       "history": [
         {
@@ -236,7 +280,7 @@
     },
     {
       "id": "translate",
-      "name": "Faidlix Translate",
+      "name": "介面語言快速切換工具",
       "mark": "TR",
       "version": "1.0.0",
       "blender": "5.2",

@@ -1,4 +1,4 @@
-const cacheName = "faidlix-portfolio-1.2.0";
+const cacheName = "faidlix-portfolio-1.3.0";
 const contentToCache = [
     "index.html",
     "plugins.html",
