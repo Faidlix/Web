@@ -1,11 +1,11 @@
 {
-  "syncedAt": "2026-10-05",
+  "syncedAt": "2026-10-06",
   "plugins": [
     {
       "id": "manager",
       "name": "已安裝外掛集中更新工具",
       "mark": "MG",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "blender": "5.2",
       "summary": "集中檢查並更新已安裝的 Faidlix Blender 外掛，只更新現有套件，不會自動安裝其他外掛。",
       "features": [
@@ -16,7 +16,7 @@
       ],
       "repository": "https://github.com/Faidlix/BlenderAddons",
       "source": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/index.json",
-      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_manager-1.1.4.zip",
+      "download": "https://raw.githubusercontent.com/Faidlix/BlenderAddons/main/repository/faidlix_manager-1.1.5.zip",
       "history": [
         {
           "version": "1.0.0",
@@ -38,6 +38,11 @@
           "version": "1.1.4",
           "date": "2026-10-05",
           "changes": "簡化全部更新頂端控制列"
+        },
+        {
+          "version": "1.1.5",
+          "date": "2026-10-05",
+          "changes": "修正全部更新來源判斷並加入防呆規則"
         }
       ]
     },
