@@ -1,16 +1,17 @@
-const cacheName = "faidlix-portfolio-2.0.0";
+const cacheName = "faidlix-portfolio-2.1.1";
 const contentToCache = [
     "index.html",
+    "tools.html",
     "plugins.html",
     "ux.html",
     "services.html",
     "play.html",
-    "assets/site.css",
-    "assets/site.js",
-    "assets/plugins.js",
-    "assets/play.js",
-    "assets/ux-history.js",
-    "assets/home-pager.js",
+    "assets/site.css?v=12",
+    "assets/site.js?v=12",
+    "assets/plugins.js?v=12",
+    "assets/play.js?v=12",
+    "assets/ux-history.js?v=12",
+    "assets/home-pager.js?v=12",
     "assets/brand/faidlix-logo-horizontal.png",
     "assets/brand/faidlix-logo-stacked.png",
     "assets/brand/faidlix-symbol.png",
@@ -25,6 +26,8 @@ const contentToCache = [
     "assets/ux/mobile-menu-before.png",
     "assets/ux/mobile-menu-reference.png",
     "assets/ux/section-dots-before.png",
+    "assets/ux/top-navigation-horizontal-desktop.png",
+    "assets/ux/top-navigation-horizontal-mobile.png",
     "data/plugins.json",
     "data/ux-history.json"
 

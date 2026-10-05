@@ -2,6 +2,22 @@
   "entries": [
     {
       "date": "2026-10-05",
+      "version": "2.1.1",
+      "title": "Unity 工具發布入口：FDX Attachment Motion",
+      "summary": "Unity 相關頁新增 FDX Attachment Motion v1.0.0，整理配件管理、次級動態、骨架權重三個模組，提供 .unitypackage、UPM Git URL、Release、MIT 授權、SHA-256 與作者提供的 Unity 6000.3.13f1 驗證紀錄。工具下載入口同步增加連結；沒有提供實際 Inspector 截圖，因此不新增介面圖片。"
+    },
+    {
+      "date": "2026-10-05",
+      "version": "2.1",
+      "title": "水平換頁與統一頂部導覽",
+      "images": [
+        {"src": "assets/ux/top-navigation-horizontal-desktop.png", "alt": "本次實作的桌面首頁，關於與主視覺合併，導覽與聯絡固定頂部"},
+        {"src": "assets/ux/top-navigation-horizontal-mobile.png", "alt": "本次實作的手機首頁，緊湊兩列導覽，沒有漢堡與右側索引"}
+      ],
+      "summary": "首頁改成關於、製作案例、工具下載三個水平滑動頁；滾輪、左右方向鍵與左右觸控切頁，瀏覽器 scrollY 保持 0。關於合併主視覺，聯絡固定頂部；全站主導覽與 3D／2D／UX／Unity 分類置頂，手機使用緊湊兩列並移除漢堡與側欄索引。新增工具下載入口，製作案例保留報價與合作流程。保留 reduced motion、鍵盤與焦點操作。最新三張本機參考附件無法在雲端取得，本次依文字需求實作，未製作替代圖片。"
+    },
+    {
+      "date": "2026-10-05",
       "version": "2.0",
       "title": "垂直換頁與文字索引",
       "summary": "移除淡入與水平轉場，改成保持捲軸固定的垂直推頁；右側圓點改為段落標題小字。",
@@ -14,8 +30,14 @@
       "title": "小卡片式行動選單",
       "summary": "漢堡選單改為右上角浮出的緊湊小卡片群組，不再以全寬白色面板佔據目前簡報頁。",
       "images": [
-        {"src": "assets/ux/mobile-menu-before.png", "alt": "調整前佔滿版面的行動選單"},
-        {"src": "assets/ux/mobile-menu-reference.png", "alt": "期望的小卡片式行動選單參考"}
+        {
+          "src": "assets/ux/mobile-menu-before.png",
+          "alt": "調整前佔滿版面的行動選單"
+        },
+        {
+          "src": "assets/ux/mobile-menu-reference.png",
+          "alt": "期望的小卡片式行動選單參考"
+        }
       ]
     },
     {
