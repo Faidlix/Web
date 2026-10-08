@@ -213,7 +213,7 @@
       "id": "fbxzip",
       "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -246,6 +246,11 @@
           "date": "2026-10-05",
           "uiImpact": true,
           "changes": "側邊欄標題改為左側外掛名稱、右側目前版本。"
+        },
+        {
+          "version": "1.7.3",
+          "date": "2026-10-08",
+          "changes": "Record Bone Remap 0.6.17 remote and formal install verification"
         }
       ]
     },
