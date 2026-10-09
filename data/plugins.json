@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-09",
+  "syncedAt": "2026-10-10",
   "plugins": [
     {
       "id": "manager",
@@ -218,7 +218,7 @@
       "id": "fbxzip",
       "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -261,6 +261,11 @@
           "version": "1.8.2",
           "date": "2026-10-09",
           "changes": "刷新 FBX ZipExporter 更新來源快取"
+        },
+        {
+          "version": "1.8.3",
+          "date": "2026-10-09",
+          "changes": "Fix rest-aware Action mirroring and inline unified rotation conversion"
         }
       ]
     },
