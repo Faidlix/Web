@@ -218,7 +218,7 @@
       "id": "fbxzip",
       "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.8.3",
+      "version": "1.8.4",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -266,6 +266,11 @@
           "version": "1.8.3",
           "date": "2026-10-09",
           "changes": "Fix rest-aware Action mirroring and inline unified rotation conversion"
+        },
+        {
+          "version": "1.8.4",
+          "date": "2026-10-10",
+          "changes": "修正 Action Slot 清單遺漏"
         }
       ]
     },
