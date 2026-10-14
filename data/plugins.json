@@ -218,7 +218,7 @@
       "id": "fbxzip",
       "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.8.6",
+      "version": "1.8.7",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -276,6 +276,11 @@
           "version": "1.8.6",
           "date": "2026-10-10",
           "changes": "修正 Weight 重複 Repository 判斷"
+        },
+        {
+          "version": "1.8.7",
+          "date": "2026-10-14",
+          "changes": "Add Unity loop settings to FBX ZIP"
         }
       ]
     },
