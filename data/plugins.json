@@ -223,7 +223,7 @@
       "id": "fbxzip",
       "name": "FBX 與貼圖封裝工具",
       "mark": "FZ",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "blender": "4.2",
       "summary": "只匯出目前選取模型，並把實際連接到材質輸出的貼圖與 FBX 一起封裝成 ZIP。",
       "features": [
@@ -291,6 +291,11 @@
           "version": "1.8.9",
           "date": "2026-10-15",
           "changes": "Keep interior loop extrema horizontal without moving keys"
+        },
+        {
+          "version": "1.8.10",
+          "date": "2026-10-17",
+          "changes": "新增時間軸與攝影表右鍵調整動作幅度"
         }
       ]
     },
