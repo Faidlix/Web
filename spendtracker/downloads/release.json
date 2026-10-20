@@ -1,0 +1,18 @@
+{
+  "version": "1.3.6",
+  "versionCode": 10,
+  "date": "2026-10-20",
+  "url": "/downloads/spendtracker-1.3.6-arm64.apk",
+  "sha256": "95eb0867be3cb8db1ac1ead96b998f4f8a871a17dce59a017cc2ac36c41b5195",
+  "bytes": 27977661,
+  "notes": [
+    "適用 Android 64 位元手機的測試版",
+    "本版改用新簽章：請先確認資料已備份且可還原，再卸載舊版並重新安裝；往後可正常覆蓋更新",
+    "新簽章的 Google 登入仍需完成 OAuth 登記；驗證登入與資料還原前，請保留手機上的舊版",
+    "啟動時檢查 APK 更新，顯示版本修改內容",
+    "已登入 Google 的帳號會自動開啟雲端資料庫",
+    "連線恢復後在背景合併並同步本機與雲端紀錄",
+    "Android App 開啟畫面不再顯示下載 App"
+  ],
+  "downloadPage": "/downloads/install.html"
+}
