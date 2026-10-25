@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "versionName": "0.1.28",
-  "versionCode": 28,
+  "versionName": "0.1.29",
+  "versionCode": 29,
   "packageName": "com.faidlix.mailboxmanager",
-  "downloadUrl": "https://faidlix.github.io/Web/mailbox-manager/downloads/mailbox-manager-0.1.28-site27-debug.apk",
-  "sha256": "7d37f7f7bcde2ee349d4797b23c2886585bfbc67c994571bf5ffc0cd3818dc59",
-  "sizeBytes": 4402756,
+  "downloadUrl": "https://faidlix.github.io/Web/mailbox-manager/downloads/mailbox-manager-0.1.29-site27-release.apk",
+  "sha256": "211bbe1e24d4b7ace96dc88ecbf9b4c883322e0dc1ba8fe73c330c25825d73b3",
+  "sizeBytes": 3410564,
   "signingCertificateSha256": "5f74b5df9e4c21fdbb590e39a807111578aa22cb0286558d0d6d1721174d0a12"
 }
