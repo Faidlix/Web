@@ -1,13 +1,26 @@
 {
-  "version": "1.3.23",
-  "versionCode": 27,
+  "version": "1.3.24",
+  "versionCode": 28,
   "date": "2026-10-27",
-  "url": "/downloads/spendtracker-1.3.23-arm64.apk",
-  "sha256": "b35d09f42647b6da0f9a8cd4d743458018409098a98819b34964ceebbaabf0d2",
-  "bytes": 29281145,
+  "url": "/downloads/spendtracker-1.3.24-arm64.apk",
+  "sha256": "a3537ffb601e3d650b0ab9e7426a9d40f848101cd1e4c0a8388eed37e3cf25f4",
+  "bytes": 29285481,
   "notes": [
-    "開關新增／編輯視窗時保留週期清單快取，避免不必要的整份清單重繪",
-    "移除新增／編輯視窗的淡入淡出動畫，直接顯示與關閉視窗"
+    "安裝本版後，後續 App 更新會優先下載上一版到新版的差分檔；舊版升到本版仍需完整下載一次",
+    "按下更新後立即收起更新視窗，由 Android 在背景持續及接續下載，不占用主畫面",
+    "下載完成的更新檔會保留供驗證、重試與安裝，確認新版啟動後才清除舊暫存",
+    "差分基底、差分檔與重建 APK 都會核對大小及 SHA-256，最後仍由 Android 系統確認安裝"
+  ],
+  "patches": [
+    {
+      "fromVersionCode": 27,
+      "format": "stpatch-v1",
+      "url": "/downloads/spendtracker-1.3.24-from-27.stpatch",
+      "sha256": "7ccca2abee297cbdcc7317cfb477d217381eed92ca6efaed02f5a3b26d3636e6",
+      "bytes": 9793048,
+      "baseSha256": "b35d09f42647b6da0f9a8cd4d743458018409098a98819b34964ceebbaabf0d2",
+      "baseBytes": 29281145
+    }
   ],
   "downloadPage": "/downloads/install.html"
 }
