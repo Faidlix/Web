@@ -1,26 +1,26 @@
 {
-  "version": "1.3.26",
-  "versionCode": 30,
-  "date": "2026-10-27",
-  "url": "/downloads/spendtracker-1.3.26-arm64.apk",
-  "sha256": "2aea10e003ad997eec37757952a730f8c97cf2eebf8dd8673a88049671af25d5",
-  "bytes": 29290209,
+  "version": "1.3.27",
+  "versionCode": 31,
+  "date": "2026-10-29",
+  "url": "/downloads/spendtracker-1.3.27-arm64.apk",
+  "sha256": "31b93f8415016e01355447cce2a7fd811eb9d5510fe8707b729ec1614985d939",
+  "bytes": 29297461,
   "notes": [
-    "移除介面與日期切換動畫，移除季／年切換選項",
-    "前景暫停自動同步，切到背景後接續，保留手動同步",
-    "同步網路等待與本機儲存分離，避免阻擋新增／編輯或覆蓋期間的新修改",
-    "同步進度分批寫入，減少重複計算並加速清單與日期整理",
-    "切換帳號與登出時隔離舊同步請求，避免跨帳號回寫"
+    "金額／時間改為獨立圖示切換，預設同時顯示；分類篩選支援複選、再次點擊取消與清除",
+    "週視圖移除每日新增鍵，改為點擊空白處新增紀錄",
+    "分類與專案改為按鈕式小彈窗，新增按鈕移至彈窗底部",
+    "長按分類／專案可改名、刪除與合併，合併保留長按的目標項目",
+    "管理操作批次更新紀錄、週期、轉帳及相關規則；刪除後改為不分類／無專案，並處理共享專案搬移識別"
   ],
   "patches": [
     {
-      "fromVersionCode": 29,
+      "fromVersionCode": 30,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.26-from-29.stpatch",
-      "sha256": "4f19090b8f04fa4713d8c149901cdd265e587291e686d3f8414cb5767aaa5b9c",
-      "bytes": 5646910,
-      "baseSha256": "016c37b310cfb4418051753381c96747aefb6e22f7163f6deec077efddf1d598",
-      "baseBytes": 29285061
+      "url": "/downloads/spendtracker-1.3.27-from-30.stpatch",
+      "sha256": "045758e4b05bfc1057761b8167228bc8d32785d8ee84d7f338546091fe2fc648",
+      "bytes": 6300601,
+      "baseSha256": "2aea10e003ad997eec37757952a730f8c97cf2eebf8dd8673a88049671af25d5",
+      "baseBytes": 29290209
     }
   ],
   "downloadPage": "/downloads/install.html"
