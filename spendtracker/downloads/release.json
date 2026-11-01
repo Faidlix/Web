@@ -1,24 +1,23 @@
 {
-  "version": "1.3.29",
-  "versionCode": 33,
+  "version": "1.3.30",
+  "versionCode": 34,
   "date": "2026-11-01",
-  "url": "/downloads/spendtracker-1.3.29-arm64.apk",
-  "sha256": "e32fddc565dc079d3673af27e6f9247e58edb64e06d6a9eff3564b1eef0aea5a",
-  "bytes": 29304677,
+  "url": "/downloads/spendtracker-1.3.30-arm64.apk",
+  "sha256": "4e3ebf76b1d86042be372dff779079f75bad3407b95d6a841b2020a2de68bc13",
+  "bytes": 29290041,
   "notes": [
-    "安裝本版後，後續更新可在通知列顯示 APK 重建、完整性驗證與安裝準備狀態",
-    "下載通知沿用 Android DownloadManager，避免同一下載顯示重複進度；完成或失敗時顯示對應通知",
-    "更新通知會在新版啟動後清除；通知權限未允許時仍可繼續更新"
+    "更新安裝改用原生 FileProvider 交付 APK，處理下載完成後無法交給 Android 安裝器的問題",
+    "只允許分享 App 自有更新暫存目錄內的安裝檔，並以暫時唯讀權限交由 Android 確認安裝"
   ],
   "patches": [
     {
-      "fromVersionCode": 32,
+      "fromVersionCode": 33,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.29-from-32.stpatch",
-      "sha256": "da93bef6068f9f74a1507d9f235887aad2e5a8b2f2a3b770a10381852fd88305",
-      "bytes": 6307817,
-      "baseSha256": "3ddb4b7c4fa39446e6fac4b51fc8323f45abb28d5ab5c17c2f6983eb9b847cbb",
-      "baseBytes": 29301837
+      "url": "/downloads/spendtracker-1.3.30-from-33.stpatch",
+      "sha256": "5cb702a4251c45484856deb5b02bc127f5fd6b12d71b6112cef102e1db10455a",
+      "bytes": 7002048,
+      "baseSha256": "e32fddc565dc079d3673af27e6f9247e58edb64e06d6a9eff3564b1eef0aea5a",
+      "baseBytes": 29304677
     }
   ],
   "downloadPage": "/downloads/install.html"
