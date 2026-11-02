@@ -1,23 +1,23 @@
 {
-  "version": "1.3.30",
-  "versionCode": 34,
-  "date": "2026-11-01",
-  "url": "/downloads/spendtracker-1.3.30-arm64.apk",
-  "sha256": "4e3ebf76b1d86042be372dff779079f75bad3407b95d6a841b2020a2de68bc13",
-  "bytes": 29290041,
+  "version": "1.3.31",
+  "versionCode": 35,
+  "date": "2026-11-02",
+  "url": "/downloads/spendtracker-1.3.31-arm64.apk",
+  "sha256": "7eaed98c0adf5df883dd37c65743ad78de7fa264d1ea5c0a288ad9b0e3de6b0d",
+  "bytes": 29291301,
   "notes": [
-    "更新安裝改用原生 FileProvider 交付 APK，處理下載完成後無法交給 Android 安裝器的問題",
-    "只允許分享 App 自有更新暫存目錄內的安裝檔，並以暫時唯讀權限交由 Android 確認安裝"
+    "分類與專案長按 1 秒即顯示管理選單，可選擇排序、改名、合併或刪除，並支援專案拖曳排序",
+    "時間模式切換後自動聚焦輸入欄，專案與分類選項移至數量輸入後同一列"
   ],
   "patches": [
     {
-      "fromVersionCode": 33,
+      "fromVersionCode": 34,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.30-from-33.stpatch",
-      "sha256": "5cb702a4251c45484856deb5b02bc127f5fd6b12d71b6112cef102e1db10455a",
-      "bytes": 7002048,
-      "baseSha256": "e32fddc565dc079d3673af27e6f9247e58edb64e06d6a9eff3564b1eef0aea5a",
-      "baseBytes": 29304677
+      "url": "/downloads/spendtracker-1.3.31-from-34.stpatch",
+      "sha256": "9a102b79b5f8e173ccfa447b2a854cb82abfe9819b9f10c9e548fd2a8abd74ad",
+      "bytes": 6294093,
+      "baseSha256": "4e3ebf76b1d86042be372dff779079f75bad3407b95d6a841b2020a2de68bc13",
+      "baseBytes": 29290041
     }
   ],
   "downloadPage": "/downloads/install.html"
