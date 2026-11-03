@@ -1,24 +1,23 @@
 {
-  "version": "1.3.32",
-  "versionCode": 36,
-  "date": "2026-11-02",
-  "url": "/downloads/spendtracker-1.3.32-arm64.apk",
-  "sha256": "b0cea3602ed78e4925cbe16bc03c2e09a6942984a46c647b36e6da12c0186710",
-  "bytes": 29295490,
+  "version": "1.3.33",
+  "versionCode": 37,
+  "date": "2026-11-03",
+  "url": "/downloads/spendtracker-1.3.33-arm64.apk",
+  "sha256": "dd510cd0006763ee6c0d0145e8ff9051aef652b1c0a9d74597a9b2d8079baeaf",
+  "bytes": 29297446,
   "notes": [
-    "新增 Android 桌面快速記錄小工具，點一下開啟新增紀錄；未登入時先引導登入",
-    "分類與專案長按 0.3 秒顯示管理選單，排序改用右側拖曳把手並在放開後儲存",
-    "紀錄方向旁顯示專案篩選，方便切換查看指定專案"
+    "分類與專案拖曳排序時即時換位、提高拖曳項目顯示層級，並支援靠近邊緣自動捲動",
+    "桌面快速記錄小工具改為精簡 1×1 新增按鈕"
   ],
   "patches": [
     {
-      "fromVersionCode": 35,
+      "fromVersionCode": 36,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.32-from-35.stpatch",
-      "sha256": "9e17a6aa43648d555728706aefba15d23061384a78445bf5287978558d70d340",
-      "bytes": 7322136,
-      "baseSha256": "7eaed98c0adf5df883dd37c65743ad78de7fa264d1ea5c0a288ad9b0e3de6b0d",
-      "baseBytes": 29291301
+      "url": "/downloads/spendtracker-1.3.33-from-36.stpatch",
+      "sha256": "9f43d39fb813de9d7dd39f4488fcd4371d76c37ec34aed633aa897ebd4d576b4",
+      "bytes": 7291970,
+      "baseSha256": "b0cea3602ed78e4925cbe16bc03c2e09a6942984a46c647b36e6da12c0186710",
+      "baseBytes": 29295490
     }
   ],
   "downloadPage": "/downloads/install.html"
