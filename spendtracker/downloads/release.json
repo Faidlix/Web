@@ -1,23 +1,23 @@
 {
-  "version": "1.3.34",
-  "versionCode": 38,
+  "version": "1.3.35",
+  "versionCode": 39,
   "date": "2026-11-03",
-  "url": "/downloads/spendtracker-1.3.34-arm64.apk",
-  "sha256": "4c9fca33be3569bb4841dd2861c8d3bbdda4f562304b937ae17e337b185b759e",
-  "bytes": 29301794,
+  "url": "/downloads/spendtracker-1.3.35-arm64.apk",
+  "sha256": "fb892543d3dfe85ceff44c2f956ff36c2e82f4fce8e296db6d336b9fea672050",
+  "bytes": 29302506,
   "notes": [
-    "收入與支出改用各自獨立的分類清單，新增、改名、合併、刪除及排序依收支方向處理",
-    "既有紀錄、週期與匯入資料的分類依收支方向遷移，保留原有分類內容"
+    "支出編輯畫面改用淡紅色重點配色，包含分類、日期時間與相關控制項",
+    "開啟快速新增紀錄時自動聚焦金額輸入欄，方便直接輸入"
   ],
   "patches": [
     {
-      "fromVersionCode": 37,
+      "fromVersionCode": 38,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.34-from-37.stpatch",
-      "sha256": "9dbcef2b079a4a52a8dbefe6de840fbbb388376c353b3ffc82203f5a5c6ad3a3",
-      "bytes": 6279453,
-      "baseSha256": "dd510cd0006763ee6c0d0145e8ff9051aef652b1c0a9d74597a9b2d8079baeaf",
-      "baseBytes": 29297446
+      "url": "/downloads/spendtracker-1.3.35-from-38.stpatch",
+      "sha256": "c21e48806c122ae118e13814382fc249e4f5e03104903f3b972f448cc3f95ffc",
+      "bytes": 6392272,
+      "baseSha256": "4c9fca33be3569bb4841dd2861c8d3bbdda4f562304b937ae17e337b185b759e",
+      "baseBytes": 29301794
     }
   ],
   "downloadPage": "/downloads/install.html"
