@@ -1,23 +1,22 @@
 {
-  "version": "1.3.40",
-  "versionCode": 44,
+  "version": "1.3.41",
+  "versionCode": 45,
   "date": "2026-11-05",
-  "url": "/downloads/spendtracker-1.3.40-arm64.apk",
-  "sha256": "451b7ed9a90793fb8affc595cd6af75b4aedda64a40b7b8f61cb698a98841cca",
-  "bytes": 29323366,
+  "url": "/downloads/spendtracker-1.3.41-arm64.apk",
+  "sha256": "5433d899dc04c96312f082c44264f1cdc2870afff523cf087921854606efad75",
+  "bytes": 29323514,
   "notes": [
-    "事件日曆依時間區間與時長調整顯示比例，方便查看當日與多日事件安排",
-    "時間區間選擇器同時顯示開始與結束時間，並調整相關日期時間控制"
+    "將區間控制移入時間選擇器，可在單一時間與開始／結束時間之間切換"
   ],
   "patches": [
     {
-      "fromVersionCode": 43,
+      "fromVersionCode": 44,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.40-from-43.stpatch",
-      "sha256": "2c575f8aade0b0072b5b782c8ed5bce3816e001b8dda357ad080b9bf12c46926",
-      "bytes": 6413132,
-      "baseSha256": "6b8dc6408f0ae78d22b455ffd3b7798342cfec0791cbb4a71c2890cbc0d1392c",
-      "baseBytes": 29319150
+      "url": "/downloads/spendtracker-1.3.41-from-44.stpatch",
+      "sha256": "9e142dd47302fb7ead4a8128e3a37007ed1c945efdd6562134c46267ddc34051",
+      "bytes": 5864514,
+      "baseSha256": "451b7ed9a90793fb8affc595cd6af75b4aedda64a40b7b8f61cb698a98841cca",
+      "baseBytes": 29323366
     }
   ],
   "downloadPage": "/downloads/install.html"
