@@ -1,23 +1,22 @@
 {
-  "version": "1.3.42",
-  "versionCode": 46,
+  "version": "1.3.43",
+  "versionCode": 47,
   "date": "2026-11-05",
-  "url": "/downloads/spendtracker-1.3.42-arm64.apk",
-  "sha256": "de98e809fecb227330b29167f5ab0fe7123c6335dfe7a99c78e9a451aacfc32c",
-  "bytes": 29322042,
+  "url": "/downloads/spendtracker-1.3.43-arm64.apk",
+  "sha256": "0dd5f807b4bfbfe1db71a311ee4f45159e6b41dd8bbeb39cdb4c52f1e64c7b29",
+  "bytes": 29322754,
   "notes": [
-    "事件日曆區塊依心情顯示對應顏色，方便辨識不同心情的事件",
-    "調整日、月日曆的事件格線呈現，保留日曆摘要資訊"
+    "日曆事件依起訖時間橫跨小時格線，跨列事件分段顯示，短於半小時的事件保留最小顯示寬度"
   ],
   "patches": [
     {
-      "fromVersionCode": 45,
+      "fromVersionCode": 46,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.42-from-45.stpatch",
-      "sha256": "0f265a2424c725607e4b20ed132db0db849b99155a74b2463b04578ee307e7c6",
-      "bytes": 6411808,
-      "baseSha256": "5433d899dc04c96312f082c44264f1cdc2870afff523cf087921854606efad75",
-      "baseBytes": 29323514
+      "url": "/downloads/spendtracker-1.3.43-from-46.stpatch",
+      "sha256": "e027b577a6a132c163c93300a51e519966e53442aec00a3ec04858ec26de05aa",
+      "bytes": 6313488,
+      "baseSha256": "de98e809fecb227330b29167f5ab0fe7123c6335dfe7a99c78e9a451aacfc32c",
+      "baseBytes": 29322042
     }
   ],
   "downloadPage": "/downloads/install.html"
