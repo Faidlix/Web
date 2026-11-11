@@ -1,22 +1,22 @@
 {
-  "version": "1.3.46",
-  "versionCode": 50,
-  "date": "2026-11-07",
-  "url": "/downloads/spendtracker-1.3.46-arm64.apk",
-  "sha256": "c3efe8c4d8ceda22e36a36615390248aaf549fef7467531a797989d655a99552",
-  "bytes": 29333102,
+  "version": "1.3.47",
+  "versionCode": 51,
+  "date": "2026-11-11",
+  "url": "/downloads/spendtracker-1.3.47-arm64.apk",
+  "sha256": "8ddefc821349a62a13f6ab393e69d405e8f3dbe38f136f18a31c5963342a0a0e",
+  "bytes": 29342002,
   "notes": [
-    "縮小日曆事件區塊並以單行顯示標題，日期區間改為分行顯示"
+    "新增獨立的工作排程，可選擇工作日期並依每日時段計算工時"
   ],
   "patches": [
     {
-      "fromVersionCode": 49,
+      "fromVersionCode": 50,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.46-from-49.stpatch",
-      "sha256": "b9255b0424d65876f3b3cdfa82c183d2ed6b6934204603a20c4468eee2386ee2",
-      "bytes": 4135618,
-      "baseSha256": "992a940b68b0fa13f82456502c2e8eb3eb28df45bce34e0839f909451ebbfe3e",
-      "baseBytes": 29333062
+      "url": "/downloads/spendtracker-1.3.47-from-50.stpatch",
+      "sha256": "5c1b87fbecabca045e41c206a008acf7ab7fa8bbf00adfdf63ebc745ff6fbd93",
+      "bytes": 5581861,
+      "baseSha256": "c3efe8c4d8ceda22e36a36615390248aaf549fef7467531a797989d655a99552",
+      "baseBytes": 29333102
     }
   ],
   "downloadPage": "/downloads/install.html"
