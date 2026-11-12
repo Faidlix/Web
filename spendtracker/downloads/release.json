@@ -1,22 +1,22 @@
 {
-  "version": "1.3.49",
-  "versionCode": 53,
+  "version": "1.3.50",
+  "versionCode": 54,
   "date": "2026-11-12",
-  "url": "/downloads/spendtracker-1.3.49-arm64.apk",
-  "sha256": "0115d29f253c16c7f55b733c4274bd3a60bdbbc2fade8edec1b5bab2ef2d59d1",
-  "bytes": 29353174,
+  "url": "/downloads/spendtracker-1.3.50-arm64.apk",
+  "sha256": "e9d8bd9ac51f52af31427cfdad83abf1e46a09a55db08cb1ac312757cb8dfb60",
+  "bytes": 29354094,
   "notes": [
-    "分開設定工作排程與記錄日期，擴充帳本篩選與財務分類規則"
+    "改善時間區間預設值及手機操作控制"
   ],
   "patches": [
     {
-      "fromVersionCode": 52,
+      "fromVersionCode": 53,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.49-from-52.stpatch",
-      "sha256": "46386b999c5c0bfa97539e80920438ebacef6c42b2992692591f50cb495107d3",
-      "bytes": 4144109,
-      "baseSha256": "40c0e88ff7d3fa4b49194a05d6d73c1cecef480d2cbe338ea19447c4dfc23ce5",
-      "baseBytes": 29342286
+      "url": "/downloads/spendtracker-1.3.50-from-53.stpatch",
+      "sha256": "aac6e60c65c290d7287ba49de5aadbbacf501e891ca7151ec0c1320dbe718436",
+      "bytes": 6475982,
+      "baseSha256": "0115d29f253c16c7f55b733c4274bd3a60bdbbc2fade8edec1b5bab2ef2d59d1",
+      "baseBytes": 29353174
     }
   ],
   "downloadPage": "/downloads/install.html"
