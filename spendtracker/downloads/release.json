@@ -1,23 +1,23 @@
 {
-  "version": "1.3.53",
-  "versionCode": 57,
+  "version": "1.3.54",
+  "versionCode": 58,
   "date": "2026-11-14",
-  "url": "/downloads/spendtracker-1.3.53-arm64.apk",
-  "sha256": "23fe5442c514b760f79c389fc434357ad64938953e245669d9d700de1015b529",
-  "bytes": 29368386,
+  "url": "/downloads/spendtracker-1.3.54-arm64.apk",
+  "sha256": "5ea795b1f0108f6d650aa168f56846ee4204c2f9059f4f5b782d1ec269248ef1",
+  "bytes": 29368946,
   "notes": [
-    "帳本清單顯示記錄時間",
-    "改善心情管理與合併確認流程"
+    "選擇心情圖案時立即預覽",
+    "長按色票後須確認才刪除"
   ],
   "patches": [
     {
-      "fromVersionCode": 56,
+      "fromVersionCode": 57,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.53-from-56.stpatch",
-      "sha256": "8dfdbcf8629c939f8dc4f60a4fc54fe01a54164a2f7f239488298514b1cc325b",
-      "bytes": 6490274,
-      "baseSha256": "4e9c53c73c273003d2d0b6101d9208dba1173c709b476190d8440ea645d04de1",
-      "baseBytes": 29358254
+      "url": "/downloads/spendtracker-1.3.54-from-57.stpatch",
+      "sha256": "437c78fa8490e7d9468b3967dc91fca4696f7fbf8c34ba1d1c3eeb3d1a305729",
+      "bytes": 6333060,
+      "baseSha256": "23fe5442c514b760f79c389fc434357ad64938953e245669d9d700de1015b529",
+      "baseBytes": 29368386
     }
   ],
   "downloadPage": "/downloads/install.html"
