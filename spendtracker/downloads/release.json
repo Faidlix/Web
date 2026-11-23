@@ -1,23 +1,22 @@
 {
-  "version": "1.3.59",
-  "versionCode": 63,
-  "date": "2026-11-18",
-  "url": "/downloads/spendtracker-1.3.59-arm64.apk",
-  "sha256": "6609bb369e302a9b2344c5aa0d1d3784083c2080e370378faafb1ed3a6315fd6",
-  "bytes": 29379778,
+  "version": "1.3.60",
+  "versionCode": 64,
+  "date": "2026-11-24",
+  "url": "/downloads/spendtracker-1.3.60-arm64.apk",
+  "sha256": "86829e0cf209ee0f49a699808ad45bf65ca0f0d7e56dcb7eb3d551b67fb4b184",
+  "bytes": 29380098,
   "notes": [
-    "新增可查看明細的統計分頁",
-    "標示未來日期的記錄，並在匯入前確認"
+    "調整時間選擇器，將日期對齊顯示於時間滾輪上方"
   ],
   "patches": [
     {
-      "fromVersionCode": 62,
+      "fromVersionCode": 63,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.59-from-62.stpatch",
-      "sha256": "cd8b0e727216ac7f0893cdb2e18af6f71345c2997d17fea067cd8f74eed762ba",
-      "bytes": 6469544,
-      "baseSha256": "82deed6929423783794162715e974aa81ca621946a279a9cd487c0f73aabb435",
-      "baseBytes": 29374194
+      "url": "/downloads/spendtracker-1.3.60-from-63.stpatch",
+      "sha256": "7ec4dad3ce9dabf4e1d2298ee32547144dc1cfc7ec969fb9c9188e4c90514ded",
+      "bytes": 6357758,
+      "baseSha256": "6609bb369e302a9b2344c5aa0d1d3784083c2080e370378faafb1ed3a6315fd6",
+      "baseBytes": 29379778
     }
   ],
   "downloadPage": "/downloads/install.html"
