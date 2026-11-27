@@ -33,11 +33,38 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Prepare Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          tar \
+            --exclude='./.git' \
+            --exclude='./.github' \
+            --exclude='./_site' \
+            --exclude='./spendtracker/downloads/*.apk' \
+            --exclude='./spendtracker/downloads/*.stpatch' \
+            -cf - . | tar -xf - -C _site
+          node <<'NODE'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const root = 'spendtracker/downloads';
+          const release = JSON.parse(fs.readFileSync(path.join(root, 'release.json'), 'utf8'));
+          const urls = [release.url, ...(release.patches ?? []).map((patch) => patch.url)];
+          for (const url of urls) {
+            const name = path.basename(new URL(url, 'https://example.invalid').pathname);
+            const source = path.join(root, name);
+            const target = path.join('_site', root, name);
+            if (!fs.existsSync(source)) throw new Error(`Release artifact is missing: ${source}`);
+            fs.copyFileSync(source, target);
+          }
+          NODE
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Publish the site and only the APK/patch files referenced by release.json.
+          # Keeping historical APKs out prevents the Pages artifact exceeding 1 GB.
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
