@@ -1,22 +1,23 @@
 {
-  "version": "1.3.63",
-  "versionCode": 67,
-  "date": "2026-11-27",
-  "url": "/downloads/spendtracker-1.3.63-arm64.apk",
-  "sha256": "b83393a01186fa46957ed83d8a23003a68218c74e01f31e582f633de17131ee3",
-  "bytes": 29400834,
+  "version": "1.3.64",
+  "versionCode": 68,
+  "date": "2026-11-28",
+  "url": "/downloads/spendtracker-1.3.64-arm64.apk",
+  "sha256": "dda34420c3d63828d84995c625042bd40f03579a0e6c64fe7d80248367698804",
+  "bytes": 29397902,
   "notes": [
-    "新增深色模式，並記住外觀設定"
+    "補齊記錄、日期時間及分類專案彈窗的深色樣式",
+    "提高篩選與統計工具列對比，專案篩選以勾號標示"
   ],
   "patches": [
     {
-      "fromVersionCode": 66,
+      "fromVersionCode": 67,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.63-from-66.stpatch",
-      "sha256": "67e47200b618ebcadf0971779d831533fed26ecaa640d31c5a0967d90679f10e",
-      "bytes": 6522722,
-      "baseSha256": "68010d43ca1420387236073d510b1b855964bebc909e26d274a2a67d92a4ca34",
-      "baseBytes": 29398334
+      "url": "/downloads/spendtracker-1.3.64-from-67.stpatch",
+      "sha256": "4a77b28be1d7f8381aaec90e779bc922cb4833a668900391ed6c1242fa40f32a",
+      "bytes": 6519790,
+      "baseSha256": "b83393a01186fa46957ed83d8a23003a68218c74e01f31e582f633de17131ee3",
+      "baseBytes": 29400834
     }
   ],
   "downloadPage": "/downloads/install.html"
