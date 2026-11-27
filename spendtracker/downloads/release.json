@@ -1,24 +1,22 @@
 {
-  "version": "1.3.62",
-  "versionCode": 66,
+  "version": "1.3.63",
+  "versionCode": 67,
   "date": "2026-11-27",
-  "url": "/downloads/spendtracker-1.3.62-arm64.apk",
-  "sha256": "68010d43ca1420387236073d510b1b855964bebc909e26d274a2a67d92a4ca34",
-  "bytes": 29398334,
+  "url": "/downloads/spendtracker-1.3.63-arm64.apk",
+  "sha256": "b83393a01186fa46957ed83d8a23003a68218c74e01f31e582f633de17131ee3",
+  "bytes": 29400834,
   "notes": [
-    "新增分類群組與排序管理",
-    "計算機改為底部鍵盤並支援百分比運算",
-    "記帳可選填評分，並支援重複記錄"
+    "新增深色模式，並記住外觀設定"
   ],
   "patches": [
     {
-      "fromVersionCode": 65,
+      "fromVersionCode": 66,
       "format": "stpatch-v1",
-      "url": "/downloads/spendtracker-1.3.62-from-65.stpatch",
-      "sha256": "60d8c684a553f169e9cfaf7a9cf84ede926d591810b2170f0caa7fdddf3822b0",
-      "bytes": 6520222,
-      "baseSha256": "b86456246190363de3786684423f550db5765605aad91a40727f8d6a11b9576c",
-      "baseBytes": 29384658
+      "url": "/downloads/spendtracker-1.3.63-from-66.stpatch",
+      "sha256": "67e47200b618ebcadf0971779d831533fed26ecaa640d31c5a0967d90679f10e",
+      "bytes": 6522722,
+      "baseSha256": "68010d43ca1420387236073d510b1b855964bebc909e26d274a2a67d92a4ca34",
+      "baseBytes": 29398334
     }
   ],
   "downloadPage": "/downloads/install.html"
